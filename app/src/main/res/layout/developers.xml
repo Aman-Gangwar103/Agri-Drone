@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Developer 1 -->
+        <LinearLayout
+            android:id="@+id/developer1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/developer1_image"
+                android:layout_width="250dp"
+                android:layout_height="230dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/developer1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flutter Developer"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!-- Developer 2 -->
+        <LinearLayout
+            android:id="@+id/developer2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/developer1_layout"
+            android:layout_marginTop="80dp">
+
+            <ImageView
+                android:id="@+id/developer2_image"
+                android:layout_width="250dp"
+                android:layout_height="230dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/developer2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kotlin Developer"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!-- Developer 3 -->
+        <LinearLayout
+            android:id="@+id/developer3_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/developer2_layout"
+            android:layout_marginTop="80dp">
+
+            <ImageView
+                android:id="@+id/developer3_image"
+                android:layout_width="250dp"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/developer3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Machine Learning"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!-- Developer 4 -->
+        <LinearLayout
+            android:id="@+id/developer4_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/developer3_layout"
+            android:layout_marginTop="80dp">
+
+            <ImageView
+                android:id="@+id/developer4_image"
+                android:layout_width="250dp"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/developer4_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web Developer"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
